@@ -6,3 +6,9 @@ docker run -p 3000:3000 -t express
 ```
 
 If npm install has issue, run `rm -f package-lock.json && npm install` seperately.  
+
+## Shell access to container 
+```
+docker run -it express sh
+```
+
