@@ -8,6 +8,8 @@ COPY package*.json ./
 
 # Build your code for production
 RUN npm ci --only=production
+# Build your code for dev
+#RUN npm install 
 
 # Bundle app source
 COPY . .
